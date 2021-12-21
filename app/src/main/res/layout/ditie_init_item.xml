@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:padding="15dp"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/ditie_init_img1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/next" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/ic_baseline_fiber_manual_record_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:maxEms="1"
+        android:id="@+id/ditie_init_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="星他" />
+</LinearLayout>

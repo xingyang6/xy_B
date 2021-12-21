@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a12_8">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+
+        android:largeHeap="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".zhihui.jilu"></activity>
+        <activity android:name=".zhihui.huishou" />
+        <activity android:name=".zhihui.zhizhui_sear_init" />
+        <activity android:name=".zhihui.A_zhihui" />
+        <activity
+            android:name=".zhihui.huishou_init"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".yindaoye.kaiping" />
+        <activity android:name=".yindaoye.ip_yindao" />
+        <activity android:name=".yindaoye.yindaop" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".personal.persoanl_4" />
+        <activity android:name=".personal.persoanl_3" />
+        <activity android:name=".personal.persoanl_2" />
+        <activity android:name=".personal.persoanl_1" />
+        <activity android:name=".bus.bus_3" />
+        <activity android:name=".bus.bus_2" />
+        <activity android:name=".bus.bus_1" />
+        <activity android:name=".duche.A_duche" />
+        <activity android:name=".park.park_init_2" />
+        <activity android:name=".park.park_init" />
+        <activity android:name=".ditie.detie_tu" />
+        <activity android:name=".ditie.ditie_init" />
+        <activity android:name=".Login">
+
+        </activity>
+        <activity android:name=".bus.bus_home" />
+        <activity android:name=".duche.duche_home" />
+        <activity android:name=".park.park_home" />
+        <activity android:name=".ditie.ditie_home" />
+        <activity android:name=".home.news_sear" />
+        <activity android:name=".home.news_init" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" />
+    </application>
+
+</manifest>
